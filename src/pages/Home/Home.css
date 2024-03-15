@@ -74,10 +74,22 @@
   background-color: rgb(35, 209, 44);
 }
 
+#start-btn:hover {
+  background-color: rgb(37, 179, 44);
+}
+
 #pause-btn {
   background-color: rgb(255, 200, 80);
 }
 
+#pause-btn:hover {
+  background-color: rgb(229, 177, 64);
+}
+
 #reset-btn {
   background-color: rgb(255, 98, 80);
+}
+
+#reset-btn:hover {
+  background-color: rgb(223, 80, 64);
 }
