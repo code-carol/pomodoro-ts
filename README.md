@@ -1,4 +1,4 @@
-# 🌟 Pomodoro
+# 🍅 Pomodoro
 
 A simple Pomodoro App
 
