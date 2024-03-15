@@ -1,0 +1,83 @@
+.container {
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: solid 2px black;
+  padding: 50px;
+  border-radius: 5px;
+}
+.title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  margin: 20px 0 20px 0;
+}
+
+.progress-bar {
+  height: 180px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(var(--blue) 360deg, var(--purple) 0deg);
+  border-radius: 50%;
+  animation: pulse 3s infinite;
+  transition: all ease;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.inner-bar {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dark-blue);
+  border-radius: 50%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0 20px 0;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px 100px;
+  border: none;
+  margin: 10px;
+  transition: font-size 0.2s ease;
+  border-radius: 5px;
+}
+
+#start-btn {
+  background-color: rgb(35, 209, 44);
+}
+
+#pause-btn {
+  background-color: rgb(255, 200, 80);
+}
+
+#reset-btn {
+  background-color: rgb(255, 98, 80);
+}
